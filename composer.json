@@ -1,0 +1,37 @@
+{
+    "name": "drnio/directus-v8-manager",
+    "description": "A PHP client for interacting with the **Directus v8 API**. This package provides easy-to-use methods for performing **CRUD operations**, managing Directus collections, and handling **authentication**, making it simple to integrate Directus into your PHP applications.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dr. Nio",
+            "email": "38550162+Dr-Nio@users.noreply.github.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.9",
+        "firebase/php-jwt": "^6.11",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "monolog/monolog": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drnio\\DirectusV8Manager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Drnio\\DirectusV8Manager\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit"
+    }
+}
