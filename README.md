@@ -1,4 +1,4 @@
-# Directus PHP Client
+# Directus v8 Manager v1.0.0
 
 A PHP client for interacting with the **Directus v8 API**. This package provides easy-to-use methods for performing **CRUD operations**, managing Directus collections, and handling **authentication**, making it simple to integrate Directus into your PHP applications.
 
