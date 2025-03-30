@@ -1,7 +1,3 @@
-This is the README.md file
-
-1. Explain the usage guide
-
 # Directus PHP Client
 
 A PHP client for interacting with the **Directus v8 API**. This package provides easy-to-use methods for performing **CRUD operations**, managing Directus collections, and handling **authentication**, making it simple to integrate Directus into your PHP applications.
