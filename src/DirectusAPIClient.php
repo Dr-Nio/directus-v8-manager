@@ -2,6 +2,8 @@
 
 namespace Drnio\DirectusV8Manager;
 
+require 'vendor/autoload.php';
+
 class DirectusAPI
 {
   private $apiUrl;
