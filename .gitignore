@@ -1,7 +1,7 @@
 ##The `.gitignore` file specifies files and directories that should not be tracked by Git.
 
 ##```gitignore
-/vendor/
-##/composer.lock
+##/vendor/
+##/compos/er.lock
 ##.phpunit.result.cache
 ##.idea/

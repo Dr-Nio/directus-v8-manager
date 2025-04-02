@@ -2,7 +2,7 @@
 
 namespace Drnio\DirectusV8Manager;
 
-require 'vendor/autoload.php';
+require '/vendor/autoload.php';
 
 use GuzzleHttp\Client;
 use Firebase\JWT\JWT;
